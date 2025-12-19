@@ -59,7 +59,8 @@ button:
 Allows you to manually toggle the "Strong Pullup" (SPU) mode for testing. Note: The component automatically manages SPU during reads, so this is rarely needed for normal operation.
 ```yaml
 output:
-  platform: ds2482 id: spu_control
+  platform: ds2482 id:
+  spu_control
 ```
 
 ## 3. Full Example YAML
